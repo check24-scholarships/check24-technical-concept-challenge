@@ -1,6 +1,6 @@
 # CHECK24 GenDev Technical Concept Challenge
 
-**Note:** This is the challenge for the **8th round** of the [GenDev Scholarship](https://check24.de/gen-dev). We're looking forward to your application. 🤓
+**Note:** This is the challenge for the GenDev IT Scholarship. Applications are open until December 28th 2025 — the program kicks off in February! We're looking forward to your application. 🤓
 
 Showcase your architectural expertise by designing a technical concept and implement a proof of concept - as even in the era of Cursor, a solid grasp of the underlying technologies is key.
 
@@ -49,7 +49,7 @@ This means that every product is responsible for its own, independent system arc
 There is no shared data persistence layer across products.
 
 Now, there's one thing that the products have in common: the platform they're all integrated into: CHECK24. We want to offer our customers a personalized experience, despite the decentralized nature of our customer data.
-For example, we display relevant widgets to the customer on the Home page. Another example is our "Insurance Center", where we display an aggregated view of all insurances that the customer has booked via different CHECK24 insurance products (e.g. personal liability insurance, pet insurance, ...), and offer a smart saving potential analyis.
+For example, we display relevant widgets to the customer on the Home page. Another example is our "Insurance Center", where we display an aggregated view of all insurances that the customer has booked via different CHECK24 insurance products (e.g. personal liability insurance, pet insurance, ...), and offer a smart saving potential analysis.
 
 To achieve this degree of personalization, the data have to come together in a way that satisfies different perspectives: performance, user experience, what the individual product systems are technically capable of - and, even more important: what they are **not** capable of.
 
@@ -62,7 +62,7 @@ To successfully apply for GenDev 8, you need to provide to us the following deli
 - `CONCEPT.md`: a detailed technical concept document, addressing Core engineering teams (who should implement the central part of the system)
 - `DEVELOPER_GUIDELINE.md`: dedicated instructions for the decentralized product teams to integrate or build their own Home Widgets.
 - **Proof of Concept (PoC)**: live, working deployment, demonstrating the feasibility of your concept by providing at least one Home Widget per platform.
-- **Application Video**: explain your concept, your decisions, and how your solution meets the guiding principles by recording a video. Do **not** a simply submit a demo video of your PoC. The video can be up to 5 minutes long (hard limit). This video can be hosted outside of your GitHub repository.
+- **Application Video**: explain your concept, your decisions, and how your solution meets the guiding principles by recording a video. Do **not** simply submit a demo video of your PoC. The video can be up to 5 minutes long (hard limit). This video can be hosted outside of your GitHub repository.
 - `README.md`: one document that ties all deliverables together, at the root level of your repository. Include links to **all** the other deliverables (including a link to your application video and a link to your live deployment).
 
 There is one more hard requirement: **Multi-Platform Support**. Your **concept** should address at least one Native App platform (iOS/Swift **or** Android/Kotlin) **and** a Web version.
